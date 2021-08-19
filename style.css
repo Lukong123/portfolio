@@ -1,0 +1,164 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: url("bg.jpg");
+    background-color: transparent;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #09143c;
+}
+
+.logo a {
+  float: left;
+  color: #09143c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.logo a:hover {
+  color: #1e847f;
+}
+
+.logo a.active {
+  color: #1e847f;
+}
+
+.topnav-right {
+  float: right;
+  padding-right: 2em;
+}
+.topnav-right a:active{
+  color: #1e847f;
+}
+.logo{
+    padding-top: 1em;
+    background-color:transparent;
+    overflow: hidden;
+    
+}
+
+nav{
+    position: relative;
+    padding: 14px 16px;
+}
+.main{
+    margin: auto;
+    width: 95%;
+    padding: 2px;
+}
+.name{
+    font-weight: 900;
+    font-size: 50px;
+    color: #1e847f;
+}
+a > button{
+  background-color: #09143c;
+  border-radius: 10px;
+  border: 1px solid #1e847f;
+  color: white;
+  
+}
+.but{
+  padding-left: 40%;
+}
+a > button:hover{
+  background-color: #1e847f;
+}
+#proj{
+  background-color: #09143c;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%; 
+  grid-template-rows: 200px;
+  grid-column-gap: 2em;
+  padding-top: 2em ;
+  padding-bottom: 2em ;
+  
+}
+
+.item {
+background: white;
+border-radius: 1.5em;
+padding-left: 1em;
+
+ 
+}
+.item > h2{
+  padding-left: 5em;
+}
+.item > p >b{
+  color: #1e847f;
+  font-size: 1.5em;
+  padding-left: 5em;
+}
+.item > p >a{
+  color: #1e847f;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#09143c;
+  color: white;
+  text-align: center;
+}
+.contact >p >a {
+  color: #1e847f;
+}
+.img{
+  padding: 2em;
+}
+.img >#img{
+  padding: 2em;
+}
+#skills{
+  background-color: #09143c;
+  color: white;
+}
+#heading{
+  color: #1e847f;
+}
+.contact{
+  padding: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .logo >a{
+    display: block;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 100%; 
+    grid-template-rows: 300px;
+    grid-column-gap: 2em;
+    padding-top: 2em ;
+    padding-bottom: 2em ;
+    row-gap: 2em ;
+    
+  }
+  .item > h2{
+    padding-left: 3em;
+  }
+  .item > p >b{
+    color: #1e847f;
+    font-size: 1.5em;
+    padding-left: 5em;
+  }
+  .topnav-right a{
+    display: inline-block;
+  }
+  
+}
